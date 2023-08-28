@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Draculya;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap);
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link1 {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0 5px 0 5px;
+a:hover {
+  color: red;
+}
+}
+a:active {
+  color: green;
+}
+h1 {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.link2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987
+}
+.link3 {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+.link4 {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 600px;
+  align-items: flex-start;
+}
+.link5 {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+body {
+  font-family: sans-serif;
+}
+div {
+  margin: 10px;
+  padding: 5px;
+}
+div p {
+  font-family: Draculya;
+  font-size: 24px;
+}
