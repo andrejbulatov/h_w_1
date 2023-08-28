@@ -4,19 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
   <nav>
-    <li><a href="./index.html"></a>Главная</li>
-    <li><a href="./info/about.html"></a>Обо мне</li>
-    <li><a href="./new_page.html"></a>Оставить заявку</li>
+    <li class="link1"><a href="./index.html">Главная</a></li>
+    <li class="link1"><a href="./info/about.html">Обо мне</a></li>
+    <li class="link1"><a href="./new_page.html">Оставить заявку</a></li>
   </nav>
   <h1>Оставить заявку</h1>
   <form action="/">
-    <label for="Name"><input type="text" placeholder="Введите ваше имя"></label><br>
-    <label for="email"><input type="email" placeholder="Введите электронную почту"></label><br>
-    <button type="submit">Отправить</button>
-    <button type="reset">Стереть</button>
+    <label for="Name"><input class="link4" type="text" maxlength="200" placeholder="Введите ваше имя"></label><br>
+    <label for="email"><input class="link4" type="email" maxlength="200" placeholder="Введите электронную почту"></label><br>
+    <button class="link5" type="submit">Отправить</button>
+    <button class="link5" type="reset">Стереть</button>
   </form>
   <h2>Наша карта</h2>
   <img src="./img/russia.jpg" alt="Map" width="350" height="350" usemap="#querty">
